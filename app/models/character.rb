@@ -7,9 +7,7 @@ class Character < ActiveRecord::Base
         "Steve Urkel always says: #{self.catchphrase}"
     end
 
-    def call_letters
-        binding.pry
-    end
+   
 
   
 end

@@ -11,8 +11,5 @@ class Show < ActiveRecord::Base
         end
     end
     
-    def build_network(arugument)
-
-    end
-  
+    
 end
