@@ -51,6 +51,7 @@ describe Show do
   end
 
    it "can build an associated network" do
+    binding.pry
     show.build_network(:call_letters => "NBC")
     expect(show.network.call_letters).to eq("NBC")
   end
